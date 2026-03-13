@@ -5,7 +5,7 @@
 
 ---
 
-## 🔴 Live Demo
+##  Live Demo
 
 | Service | URL |
 |---|---|
@@ -127,7 +127,19 @@ Three features engineered from raw sensor data:
   "threshold_used": 0.65
 }
 ```
+## 🚀 Run Locally
 
+1. Clone the repo
+   git clone https://github.com/NehaAnalyzes/Predictive-maintenance.git
+
+2. Install dependencies
+   pip install -r requirements.txt
+
+3. Start the API
+   python -m uvicorn api.main:app --reload
+
+4. Start the dashboard (new terminal)
+   python -m streamlit run dashboard/app.py
 ---
 
 ## 🛠️ Tech Stack
