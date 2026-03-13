@@ -15,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-API_URL = "API_URL = "https://predictive-maintenance-vckm.onrender.com/predict"
+API_URL = "https://predictive-maintenance-vckm.onrender.com/predict"
 
 # =============================================================================
 # CSS
