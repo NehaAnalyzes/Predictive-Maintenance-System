@@ -101,14 +101,7 @@ Three features engineered from raw sensor data:
 
 ---
 
-## 🐳 Run with Docker
 
-```bash
-docker build -t predictive-maintenance .
-docker run -p 8000:8000 predictive-maintenance
-```
-
----
 
 ## 🔌 API Usage
 
