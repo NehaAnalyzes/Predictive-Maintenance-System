@@ -97,38 +97,7 @@ Three features engineered from raw sensor data:
 
 **Key insight:** Default threshold (0.50) gave F1=0.70. Threshold tuning to 0.65 improved F1 to **0.81** — a 16% gain with no retraining.
 
----
 
-## 🚀 Run Locally
-
-**1. Clone the repo**
-```bash
-git clone https://github.com/NehaAnalyzes/Predictive-maintenance.git
-cd Predictive-maintenance
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Train the model** (or skip — pkl files are included)
-```bash
-python phase2_and_3.py
-python phase4_modeling.py
-```
-
-**4. Start the API**
-```bash
-python -m uvicorn api.main:app --reload
-```
-API runs at `http://localhost:8000` — Swagger docs at `http://localhost:8000/docs`
-
-**5. Start the dashboard** (new terminal)
-```bash
-python -m streamlit run dashboard/app.py
-```
-Dashboard runs at `http://localhost:8501`
 
 ---
 
@@ -180,14 +149,3 @@ docker run -p 8000:8000 predictive-maintenance
 | Container | Docker |
 | Deployment | Render (API), Streamlit Cloud (dashboard) |
 
----
-
-## 👩‍💻 Author
-
-**Neha** — [GitHub](https://github.com/NehaAnalyzes)
-
----
-
-## 📄 License
-
-MIT License — free to use and modify.
