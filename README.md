@@ -12,7 +12,7 @@
 | FastAPI (REST API + Swagger docs) | `https://your-api.onrender.com/docs` |
 | Streamlit Dashboard | `https://your-app.streamlit.app` |
 
-> Replace above with your live URLs after deployment
+
 
 ---
 
