@@ -9,8 +9,8 @@
 
 | Service | URL |
 |---|---|
-| FastAPI (REST API + Swagger docs) | `https://your-api.onrender.com/docs` |
-| Streamlit Dashboard | `https://your-app.streamlit.app` |
+| FastAPI (REST API + Render) | `https://predictive-maintenance-vckm.onrender.com/` |
+| Streamlit Dashboard | `https://predictive-maintenance-achyz8nkjhhncjjkznd5cg.streamlit.app/` |
 
 
 
