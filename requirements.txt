@@ -8,5 +8,6 @@ numpy
 matplotlib
 seaborn
 joblib
-streamlit
+streamlit>=1.32.0
 requests
+altair>=5.0.0
