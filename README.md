@@ -9,7 +9,7 @@
 
 | Service | URL |
 |---|---|
-| FastAPI (REST API + Render) | `https://predictive-maintenance-vckm.onrender.com/` |
+| FastAPI (REST API + Render) | `https://predictive-maintenance-vckm.onrender.com/docs` |
 | Streamlit Dashboard | `https://predictive-maintenance-achyz8nkjhhncjjkznd5cg.streamlit.app/` |
 
 
@@ -130,7 +130,7 @@ Three features engineered from raw sensor data:
 ## 🚀 Run Locally
 
 1. Clone the repo
-   git clone https://github.com/NehaAnalyzes/Predictive-maintenance.git
+   git clone https://github.com/NehaAnalyzes/Predictive-Maintenance-System.git
 
 2. Install dependencies
    pip install -r requirements.txt
